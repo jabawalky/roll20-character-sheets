@@ -1,0 +1,201 @@
+<div class="sheet-header">Personal Attributes:</div>
+<div class="sheet-3colrow">
+    <div class="sheet-col">
+        <label>Name:<input type="text" name="attr_character_name" /></label>
+        <label>Class:<input type="text" name="attr_Class" /></label>
+        <label>Alignment:<input type="text" name="attr_Alignment" /></label>
+        <label>Race:<input type="text" name="attr_Race" /></label>
+    </div>
+    <div class="sheet-col">
+        <label>XP:<input type="text" name="attr_XP"/></label>
+        <label>HP:<input type="text" name="attr_HitPoints"/></label>
+        <label>AC:<input type="number" name="attr_ArmorClass" /></label>
+        <label>Armour:<input type="text" name="attr_Armortype" /></label>
+        <label>Shield:<input type="text" name="attr_ShiledMod" /></label>
+        <label>Level:<input type="text" name="attr_Level" /></label>
+    </div>
+    <div class="sheet-col">
+        <label>Age:<input type="number" name="attr_Age"/></label>
+        <label>Height:<input type="text" name="attr_Height" /></label>
+        <label>Weight:<input type="text" name="attr_Weight" /></label>
+        <label>Sex:<input type="text" name="attr_Sex" /></label>
+        <label>Movement:<input type="text" name="attr_Movement" /></label>
+        <label>Skills:<input type="text" name="attr_Skills" /></label>
+    </div>
+</div>
+
+<div class="sheet-header">Personal Attributes:</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Str:<input type="number" name="attr_Strength" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">To Hit:</span><input type="text" name="attr_MeleeBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">Dmg:</span><input type="text" name="attr_DmgBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">Enc:</span><input type="text" name="attr_EncumbranceBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">ToS:</span><input type="text" name="attr_MinorStrengthCheck" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">FoS:</span><input type="text" name="attr_MajorStrengthCheck" /></label></div>
+</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Int:<input type="number" name="attr_Intelligence" /></label></div>
+    <div class="sheet-col"><label><span class="small">Add.<br/>Lang:<input type="text" name="attr_BonusLanguages" /></label></div>
+    <div class="sheet-col"><label><span class="small">Learn<br/>Spell:<input type="text" name="attr_LearnSpell" /></label></div>
+    <div class="sheet-col"><label><span class="small">Add.<br/>Spell:<input type="text" name="attr_BonusSpell" /></label></div>
+    <div class="sheet-col sheet-span4">&nbsp;</div>
+</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Wis:<input type="number" name="attr_Wisdom" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">Willpower<br/>adj:</span><input type="text" name="attr_WillpowerAdj" /></label></div>
+    <div class="sheet-col"><label><span class="small">Learn<br/>CSpell:<input type="text" name="attr_LearnClericSpell" /></label></div>
+    <div class="sheet-col"><label><span class="small">Add.<br/>CSpell:<input type="text" name="attr_BonusClericSpell" /></label></div>
+    <div class="sheet-col sheet-span4">&nbsp;</div>
+</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Dex:<input type="number" name="attr_dexterity" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">To Hit:</span><input type="text" name="attr_RangeBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">Def<br/>adj:</span><input type="text" name="attr_RDefenseBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">ToD:</span><input type="text" name="attr_MinorDexCheck" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">FoD:</span><input type="text" name="attr_MajorDexCheck" /></label></div>
+    <div class="sheet-col sheet-span2">&nbsp;</div>
+</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Con:<input type="number" name="attr_constitution" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">HP<br/>Bonus:</span><input type="text" name="attr_HitPointBonus" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">Trauma<br/>Survival:</span><input type="text" name="attr_TraumaCheck" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">ToC:</span><input type="text" name="attr_MinorConCheck" /></label></div>
+    <div class="sheet-col"><label><span class="sheet-small">FoC:</span><input type="text" name="attr_MajorConCheck" /></label></div>
+    <div class="sheet-col sheet-span2">&nbsp;</div>
+</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col"><label>Cha:<input type="number" name="attr_Charisma" /></label></div>
+    <div class="sheet-col"><label><span class="small">Max<br />Hench.:</span><input type="text" name="attr_MaximumHenchmen" /></label></div>
+    <div class="sheet-col"><label><span class="small">Turn<br/>Undead:</span><input type="text" name="attr_TrunBonus" /></label></div>
+    <div class="sheet-col"><label><span class="small">React:</span><input type="text" name="attr_ReactionBonus" /></label></div>
+    <div class="sheet-col sheet-span2">&nbsp;</div>
+</div>
+
+<div class="sheet-header">Saves</div>
+<table class="saves">
+<tr>
+    <th>Death: Death Magic, Death Ray, Paralysis</th>
+    <th>Poison, Radiation</th>
+    <th>Transformation: Petrifaction, Polymorph</th>
+    <th>Device: Magical Rings, Rods, Staves, Wands</th>
+    <th>Avoidance: Breath, Rays, Some traps</th>
+    <th>Sorcery: Spells, Scrolls, Spell-like abilities</th>
+    <th>Dodgeable Spells (Fireball, Entangle, etc.)</th>
+    <th>Willpower Spells, Mind control, etc.</th>
+</tr>
+<tr>
+    <td><input type="number" name="attr_Death" /> <button type="roll" value="/roll 1d20&gt;@{Death}" name="roll_Death">Roll</button></td>
+    <td><input type="number" name="attr_Poison" /> <button type="roll" value="/roll 1d20&gt;@{Poison}" name="roll_Poison">Roll</button></td>
+    <td><input type="number" name="attr_Transformation" /> <button type="roll" value="/roll 1d20&gt;@{Transformation}" name="roll_Transformation">Roll</button></td>
+    <td><input type="number" name="attr_Device" /> <button type="roll" value="/roll 1d20&gt;@{Device}" name="roll_Device">Roll</button></td>
+    <td><input type="number" name="attr_Avoidance" /> <button type="roll" value="/roll 1d20&gt;@{Avoidance}" name="roll_Avoidance">Roll</button></td>
+    <td><input type="number" name="attr_Sorcery" /> <button type="roll" value="/roll 1d20&gt;@{Sorcery}" name="roll_Sorcery">Roll</button></td>
+    <td><input type="number" name="attr_DodgeableSpell" /> <button type="roll" value="/roll 1d20&gt;@{DodgeableSpell}" name="roll_DodgeableSpell">Roll</button></td>
+    <td><input type="number" name="attr_Willpower" /> <button type="roll" value="/roll 1d20&gt;@{Willpower}" name="roll_Willpower">Roll</button></td>
+</tr>
+</table>
+
+<div class="sheet-header">Weapons</div>
+<div class="sheet-6colrow">
+    <div class="sheet-col sheet-header">Weapon</div>
+    <div class="sheet-col sheet-header">Damage vs 1H</div>
+    <div class="sheet-col sheet-header">Damage vs 2H</div>
+    <div class="sheet-col sheet-header">Rate of Atk</div>
+    <div class="sheet-col sheet-header">Range</div>
+    <div class="sheet-col sheet-header">Skill</div>
+</div>
+<fieldset class="repeating_weapon">
+<div class="sheet-6colrow">
+    <div class="sheet-col"><input type="text" name="attr_WeaponName" /></div>
+    <div class="sheet-col"><input type="text" name="attr_Damage1H" /></div>
+    <div class="sheet-col"><input type="text" name="attr_Damage2H" /></div>
+    <div class="sheet-col"><input type="text" name="attr_RateOfAtk" /></div>
+    <div class="sheet-col"><input type="text" name="attr_Range" /></div>
+    <div class="sheet-col"><input type="text" name="attr_WeapomSkill" /></div>
+</div>
+</fieldset>
+
+</div>
+<h4>Player Abilities</h4>
+<textarea name="attr_Anotes"></textarea></div></div><hr>
+<div class="sheet-col">
+    </div>
+    
+</div>
+<h4>Player notes</h4>
+<textarea name="attr_pnotes"></textarea></div></div><hr>
+<div class="sheet-col">
+    </div>
+    
+</div>   
+<h4>Spells Memorized and Spell Book</h4><br>
+    <b>Spells Memorized</b><br><ul><br>
+            <fieldset name="repeating_spells"class="repeating_spells"><table>
+    <tr>
+            <td><select name="attr_level" class="sheet-short">
+          <option value="1">1st</option>
+          <option value="2">2nd</option>
+          <option value="3">3rd</option>
+          <option value="4">4th</option>
+          <option value="5">5th</option>
+          <option value="6">6th</option>
+          <option value="7">7th</option>
+          <option value="8">8th</option>
+          <option value="9">9th</option>
+      </select></td>
+            <td><input type="text" name="attr_spellname" value="spell name" ></td>
+            <td><input type="checkbox" name="attr_castcheck" class="sheet-left">&nbsp;&nbsp;<span></span>Cast today</td>
+    </tr>    
+</table></fieldset>
+</div></div><hr>
+<div class="sheet-2colrow">
+    <div class="sheet-col">
+<h4>Gear</h4><table style='border-collapse: collapse; border-spacing: 0;'>
+    <tr>
+            <td>Description</td>
+            <td>Weight</td>
+            <td>Location</td>
+    </tr>
+    <tr>
+            <td><input type="text" name="attr_geardesc"></td>
+            <td><input type="text" name="attr_gearweigh" class="sheet-short"></td>
+            <td><input type="text" name="attr_gearloc" class=""></td>
+    </tr>
+</table>
+<fieldset name="repeating_gear" class="repeating_gear"><table style='border-collapse: collapse; border-spacing: 0;'>
+        <tr>
+            <td><input type="text" name="attr_geardesc"></td>
+            <td><input type="text" name="attr_gearweigh" class="sheet-short"></td>
+            <td><input type="text" name="attr_gearloc" class=""></td>
+    </tr>
+</table></fieldset><br>
+    
+</div>
+<div class="sheet-col">
+<h4>Wealth</h4><br>
+    <input type="number" name="attr_plat" class="sheet-nobut"> <b>PP</b>
+    <input type="number" name="attr_gold" class="sheet-nobut"> <b>GP</b>
+    <input type="number" name="attr_elec" class="sheet-nobut"> <b>EP</b>
+    <input type="number" name="attr_silv" class="sheet-nobut"> <b>SP</b>
+    <input type="number" name="attr_copp" class="sheet-nobut"> <b>CP</b><br>
+    <b>Total GP value from gems:</b> <input type="text" name="attr_gemsvalue" class="short">
+    <br><b>Total GP value from other items:</b> <input type="text" name="attr_gemsvalue" class="short"><br><br>
+    <table style='border-collapse: collapse; border-spacing: 0;'>
+    <tr>
+ <div class="sheet-2colrow">
+    <div class="sheet-col">
+<h4>Languages</h4><table style='border-collapse: collapse; border-spacing: 0;'>
+    <tr>
+       <td>Languages</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="attr_Language"></td>
+    </tr>
+</table>
+<fieldset name="repeating_Languages" class="repeating_Languages"><table style='border-collapse: collapse; border-spacing: 0;'>
+        <tr>
+        <td><input type="text" name="attr_Language"></td>
+    </tr>
+</table></fieldset><br>   
+
+</div>
